@@ -1,4 +1,4 @@
-# How to comditionally render views
+# How to conditionally render views
 
 ## Introduction:
 "Hey React enthusiasts! Today, we're tackling the important topic of conditional rendering, and I'll guide you through two different approaches using examples from my codebase. We've got a classic ternary operator approach and a more elegant object mapping technique."
