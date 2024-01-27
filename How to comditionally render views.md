@@ -66,6 +66,31 @@ export const App = ({ role }) => {
 their respective components, the code becomes more readable and maintainable.
 This approach allows us to easily extend our application without the need for nested conditionals."
 ```
+##### Let's explain more:
+```
+imagine you have a special box called "App" that can show different things based on who you are.
+Sometimes it shows a special place for an "Admin" (someone in charge), sometimes a place for a "Guest"
+(someone visiting), and sometimes a place for a "Contributor" (someone helping).
+
+Now, instead of saying, "Show this for an Admin, show that for a Guest," we have a magical list
+that knows exactly what to show for each type of person. The list is like this:
+
+1. For a _"Guest,"_ show something called "GuestView."
+2. For an _"Admin,"_ show something called "AdminView."
+3. For a _"Contributor,"_ show something called "ContributorView."
+
+Now, every time you come to your special box, you just need to say who you are, and the box knows
+what to show you! If you are a "Guest," it shows the "GuestView"; if you are an "Admin," it shows
+the "AdminView"; and if you are a "Contributor," it shows the "ContributorView."
+
+But what if someone says they are something else, like a "Superhero" or a "Ninja"? To be safe,
+we also have a special place called "DefaultView" that shows something when we are not sure what to show.
+So, if someone says they are a "Superhero," the box will show the "DefaultView" because it doesn't
+have a special place for superheroes.
+
+That's it! It's like a magical box that knows exactly what to show for different people, and it even
+has a backup plan for when it's not sure. Cool, right?
+```
 
 ### Conclusion:
 ```
